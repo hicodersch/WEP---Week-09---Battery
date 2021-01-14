@@ -1,0 +1,75 @@
+.batteryContainer {
+    display: flex;
+    margin: 20vh 20vw;
+    flex-direction: row;
+    align-items: center;
+}
+
+.batteryOuter {
+    border-radius: 3px;
+    border: 1px solid #444;
+    padding: 1px;
+    width: 240px;
+    height: 90px;
+}
+
+.batteryBump {
+    border-radius: 2px;
+    background-color: #444;
+    margin: 2px;
+    width: 10px;
+    height: 30px;
+}
+
+.emptyBattery {
+    border-radius: 2px;
+    background-color: white;
+    width: 240px;
+    height: 90px;
+}
+
+.lowerMiddleBattery {
+    border-radius: 2px;
+    background-color: red;
+    width: 80px;
+    height: 90px;
+}
+
+.upperMiddleBattery {
+    border-radius: 2px;
+    background-color: orange;
+    width: 160px;
+    height: 90px;
+}
+
+.fullBattery {
+    border-radius: 2px;
+    background-color: green;
+    width: 240px;
+    height: 90px;
+}
+
+#increase{
+    background-color: green;
+    color: white;
+    border: 1px thin black;
+    border-radius: 5%;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+#decrease{
+    background-color: red;
+    color: white;
+    border: 1px thin black;
+    border-radius: 5%;
+    margin-left: 10px;
+    font-size: 24px;
+}
+#charge{
+    font-size: 45px;
+    font-family:'Times New Roman', Times, serif
+}
+body{
+    background-color: rgb(157, 231, 231);
+}
